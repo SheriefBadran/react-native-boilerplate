@@ -6,7 +6,7 @@ import { Actions, Scene, Router } from 'react-native-router-flux'
 import {Test} from './components/test'
 
 const client = new ApolloClient({
-  networkInterface: createNetworkInterface({ uri: ''}),
+  networkInterface: createNetworkInterface({ uri: 'https://api.graph'}),
 })
 
 const scenes = Actions.create(
